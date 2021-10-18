@@ -1,3 +1,6 @@
+//Identifier com caso de teste automatizado
+//Esse c√≥digo faz a leitra do arquivo identifier_test_case.txt
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -46,9 +49,9 @@ FILE *arq = fopen(url, "r");
 		    }
 		
 		    if (valid_id && (length >= 1) && (length < 6)) {
-				printf ("V·lido \n");
+				printf ("V√°lido \n");
 		        } else {
-		        printf ("Inv·lido\n");
+		        printf ("Inv√°lido\n");
 		    }
    
 	} while (achar != EOF);
@@ -58,7 +61,7 @@ FILE *arq = fopen(url, "r");
 }
 
 
-// O programa È respons·vel por determinar se um identificador È v·lido ou n„o
-// Um identificador v·lido deve comeÁar com uma letra e conter apenas letras ou dÌgitos; alÈm disso, deve ter no mÌnimo 1 e no m·ximo 6 caracteres de comprimento. 
-// … importante observar que o programa identifier contÈm ao menos um defeito.
+// O programa √© respons√°vel por determinar se um identificador √© v√°lido ou n√£o
+// Um identificador v√°lido deve come√ßar com uma letra e conter apenas letras ou d√≠gitos; al√©m disso, deve ter no m√≠nimo 1 e no m√°ximo 6 caracteres de comprimento. 
+// √â importante observar que o programa identifier cont√©m ao menos um defeito.
 
